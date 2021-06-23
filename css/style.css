@@ -1,0 +1,176 @@
+
+/* Css da Dashboard */
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.slide1 {
+	background: rgba(250,5,25,1);
+	background: -moz-linear-gradient(left, rgba(250,5,25,1) 0%, rgba(230,67,67,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,5,25,1)), color-stop(100%, rgba(230,67,67,1)));
+	background: -webkit-linear-gradient(left, rgba(250,5,25,1) 0%, rgba(230,67,67,1) 100%);
+	background: -o-linear-gradient(left, rgba(250,5,25,1) 0%, rgba(230,67,67,1) 100%);
+	background: -ms-linear-gradient(left, rgba(250,5,25,1) 0%, rgba(230,67,67,1) 100%);
+	background: linear-gradient(to right, rgba(250,5,25,1) 0%, rgba(230,67,67,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa0519', endColorstr='#e64343', GradientType=1 );
+}
+
+.slide2 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02aaff+0,4ae8f9+100 */
+	background: rgb(2,170,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(2,170,255,1) 0%, rgba(74,232,249,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(2,170,255,1) 0%,rgba(74,232,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(2,170,255,1) 0%,rgba(74,232,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02aaff', endColorstr='#4ae8f9',GradientType=1 ); /* IE6-9 */
+}
+
+.slide3 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2aa501+0,72e033+100 */
+	background: rgb(42,165,1); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(42,165,1,1) 0%, rgba(114,224,51,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(42,165,1,1) 0%,rgba(114,224,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(42,165,1,1) 0%,rgba(114,224,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa501', endColorstr='#72e033',GradientType=1 ); /* IE6-9 */
+}
+
+.slide4 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f26602+1,ff934c+100 */
+	background: rgb(242,102,2); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(242,102,2,1) 1%, rgba(255,147,76,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(242,102,2,1) 1%,rgba(255,147,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(242,102,2,1) 1%,rgba(255,147,76,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26602', endColorstr='#ff934c',GradientType=1 ); /* IE6-9 */
+}
+
+.slide5 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8602f9+1,b73799+100 */
+	background: rgb(134,2,249); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(134,2,249,1) 1%, rgba(183,55,153,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(134,2,249,1) 1%,rgba(183,55,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(134,2,249,1) 1%,rgba(183,55,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8602f9', endColorstr='#b73799',GradientType=1 ); /* IE6-9 */
+}
+
+#screen {
+  width: 1000px;
+  margin: 56px auto;
+  text-align: center;
+  height: 580px;
+  position: relative;
+}
+
+.title {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 200px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.titleprojects {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.statistic-title {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 20px;
+	display: block;
+}
+.statistic-number {
+	color: #FFF;
+	font-weight: 200;
+	font-size: 150px;
+}
+
+.container {
+	height: 100%;
+}
+.statistic-word {
+	color: #FFF;
+	font-weight: 150;
+	font-size: 60px;
+}
+
+.statistic-subtitle {
+	color: #FFF;
+	font-weight: 150;
+	font-size: 45px;
+}
+
+.statistic-title2 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 30px;
+	display: block;
+}
+
+#myChart {
+	margin-top: 150px;
+}
+
+.font-title {
+	color: #FFF;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+
+.projects {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 150;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.formulario {
+	margin-top: 30%;
+}
+
+.top-project-title {
+	color: #FFF;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+body {
+	font-family: 'Lato';
+}
+
+
+.smartmarquee {
+  position: relative;
+  overflow: hidden;
+	height: 100%;
+}
+
+.smartmarquee .container { position: absolute; }
+
+ul {
+	text-align: center;
+}
+ul li {
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Lato';
+	margin-top: 10px;
+	font-size: 40px;
+}
